@@ -12,17 +12,18 @@ router.post("/", (req, res) => {
     },
     {
       keywords: ["help", "support"],
-      response: "Of course! What do you need help with?",
+      response:
+        "Of course! What do you need help with? Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
       keywords: ["project", "task"],
       response:
-        "What is your project or task about?, contact me directly please.",
+        "What is your project or task about?.Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
       keywords: ["technology", "programming", "coding"],
       response:
-        "I am experienced in MERN stack, React.js, Node.js, and MongoDB. What do you need help with?",
+        "I am experienced in MERN stack, React.js, Node.js, Nextjs, expressjs and MongoDB. What do you need help with? Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
       keywords: ["experience", "work"],
@@ -106,7 +107,8 @@ router.post("/", (req, res) => {
     },
     {
       keywords: ["location", "live", "where are you", "where do you live"],
-      response: "I currently reside in Nakuru, Kenya. How can I assist you?",
+      response:
+        "I currently reside in Nakuru, Kenya. How can I assist you? Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
       keywords: [
@@ -119,7 +121,7 @@ router.post("/", (req, res) => {
         "bank account",
       ],
       response:
-        "I'm sorry, but for security reasons, I cannot share my personal information with you. Is there anything else I can help you with?",
+        "I'm sorry, but for security reasons, I cannot share my personal information with you. Is there anything else I can help you with? Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
       keywords: ["John Doe", "Jane Doe", "fake name"],
