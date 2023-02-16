@@ -26,7 +26,7 @@ router.post("/", (req, res) => {
         "I am experienced in MERN stack, React.js, Node.js, Nextjs, expressjs and MongoDB. What do you need help with? Please contact me directly at [mwanikicharles226@gmail.com or 0740315545].",
     },
     {
-      keywords: ["experience", "work"],
+      keywords: ["experience", "work", "skills"],
       response:
         "I have worked on several full-stack projects using MERN stack, and I have a solid understanding of front-end and back-end development.",
     },
