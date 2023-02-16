@@ -148,7 +148,7 @@ router.post("/", (req, res) => {
   }
 
   // Send the response back to the client
-  res.status(200).json({ message: response });
+  res.status(200).json(response);
 });
 
 module.exports = router;
